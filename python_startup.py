@@ -1,9 +1,12 @@
 import sys
 import os
-if os.path.exists(os.environ['HOME']+'/Codes/TurbPlasma'):
-   sys.path.insert(0,os.environ['HOME']+'/Codes/TurbPlasma/')
-if os.path.exists(os.environ['HOME']+'/Codes/Py3D'):
-   sys.path.insert(0,os.environ['HOME']+'/Codes/Py3D/')
+if os.path.exists(os.environ['HOME']+'/AJGAR'):
+   sys.path.insert(0,os.environ['HOME']+'/AJGAR/')
+if os.path.exists(os.environ['HOME']+'/AJGAR/TurbPlasma'):
+   sys.path.insert(0,os.environ['HOME']+'/AJGAR/TurbPlasma/')
+if os.path.exists(os.environ['HOME']+'/AJGAR/Py3D'):
+   sys.path.insert(0,os.environ['HOME']+'/AJGAR/Py3D/')
+sys.path.insert(0,os.environ['HOME']+'/WorkSpace/')
 import numpy as np
 import scipy as sp
 #import pyqtgraph as pg
@@ -11,7 +14,7 @@ import matplotlib.pyplot as plt
 plt.ion()
 from Interfaces.Simulations import p3d
 from Interfaces.Simulations import p3do
-import AnalysisFunctions as af
+import TurbPlasma.Analysis.AnalysisFunctions as af
 from scipy.ndimage import gaussian_filter as gf
 import OLLibs as oll
 
@@ -45,4 +48,4 @@ def calc_dist(a,b,nbins):
 ##################################################
 ##################################################
 
-from subs import *
+from TurbPlasma.Utilities.subs import *

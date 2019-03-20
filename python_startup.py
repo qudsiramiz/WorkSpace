@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 plt.ion()
 from Interfaces.Simulations import p3d
 from Interfaces.Simulations import p3do
-import TurbPlasma.Analysis.AnalysisFunctions as af
+import TurbPlasma.Analysis.Simulations.AnalysisFunctions as af
 from scipy.ndimage import gaussian_filter as gf
 import OLLibs as oll
 

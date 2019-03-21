@@ -12,6 +12,7 @@ import scipy as sp
 #import pyqtgraph as pg
 import matplotlib.pyplot as plt
 plt.ion()
+import TurbPlasma as tp
 from TurbPlasma.Interfaces.Simulations import p3d
 from TurbPlasma.Interfaces.Simulations import p3do
 import TurbPlasma.Analysis.Simulations.AnalysisFunctions as af

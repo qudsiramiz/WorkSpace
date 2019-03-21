@@ -12,11 +12,10 @@ import scipy as sp
 #import pyqtgraph as pg
 import matplotlib.pyplot as plt
 plt.ion()
-from Interfaces.Simulations import p3d
-from Interfaces.Simulations import p3do
+from TurbPlasma.Interfaces.Simulations import p3d
+from TurbPlasma.Interfaces.Simulations import p3do
 import TurbPlasma.Analysis.Simulations.AnalysisFunctions as af
 from scipy.ndimage import gaussian_filter as gf
-import OLLibs as oll
 
 
 ## Quick fix for imshow to show images in IDL like orientation

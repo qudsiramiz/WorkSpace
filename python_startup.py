@@ -4,6 +4,8 @@ if os.path.exists(os.environ['HOME']+'/AJGAR'):
    sys.path.insert(0,os.environ['HOME']+'/AJGAR/')
 if os.path.exists(os.environ['HOME']+'/AJGAR/TurbPlasma'):
    sys.path.insert(0,os.environ['HOME']+'/AJGAR/TurbPlasma/')
+if os.path.exists(os.environ['HOME']+'/AJGAR/TurbAn'):
+   sys.path.insert(0,os.environ['HOME']+'/AJGAR/TurbAn/')
 if os.path.exists(os.environ['HOME']+'/AJGAR/Py3D'):
    sys.path.insert(0,os.environ['HOME']+'/AJGAR/Py3D/')
 sys.path.insert(0,os.environ['HOME']+'/WorkSpace/')
